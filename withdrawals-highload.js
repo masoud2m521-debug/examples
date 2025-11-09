@@ -1,8 +1,14 @@
 /*
 Here we will look at how to process withdrawals (outgoing Toncoins) from your hot wallet to users wallets.
 
-1. You have a key pair of your hot wallet (how to create key pair is described in `common.js`).
-   You will send Toncoins from this wallet.
+1. 
+
+
+
+
+
+//c
+:*
 
 2. You need to save all withdrawal requests in your database.
 
@@ -10,14 +16,7 @@ Here we will look at how to process withdrawals (outgoing Toncoins) from your ho
 
 4. We can repeat sending this transfer until it successfully sends. The `created_at` and `query_id` transfer parameter protects us from double withdrawal.
 
-A more detailed highload v3 overview: https://docs.ton.org/participate/wallets/contracts#highload-wallet-v3
-
-*/
-
-import TonWeb from "tonweb";
-import TonWebMnemonic from "tonweb-mnemonic";
-
-const BN = TonWeb.utils.BN;
+A more detailed highload v3 overview: https://
 
 const isMainnet = true;
 
